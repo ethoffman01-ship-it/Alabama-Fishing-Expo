@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="alabama-fishing-expo-video">
+    <InLine>
+      <AdSystem>Custom</AdSystem>
+      <AdTitle>Alabama Fishing Expo Video Ad</AdTitle>
+
+      <Impression><![CDATA[
+https://example.com/impression
+      ]]></Impression>
+
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:18</Duration>
+
+            <VideoClicks>
+              <ClickThrough><![CDATA[
+https://armsfishing.com
+              ]]></ClickThrough>
+            </VideoClicks>
+
+            <MediaFiles>
+              <MediaFile
+                delivery="progressive"
+                type="video/mp4"
+                width="1920"
+                height="1080">
+                <![CDATA[
+https://github.com/ethoffman01-ship-it/Alabama-Fishing-Expo/raw/refs/heads/main/GX010229.mp4
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+
+          </Linear>
+        </Creative>
+      </Creatives>
+
+    </InLine>
+  </Ad>
+</VAST>
